@@ -1,0 +1,21 @@
+h1 {
+  color: rgb(232, 162, 2);
+  text-align: center;
+  font-family: "Lucida Grande", sans-serif;
+  font-size: 56px;
+  font-style: italic;
+}
+
+#sunflowers {
+  width: 300px;
+}
+
+.hightlight {
+  background-color: #FFFF00;
+  font-weight: bold;
+}
+
+.muted {
+  color: #3333AA; /*a litte red, a little green and not quite full blue*/
+  color: #33a; /*same as above*/
+}

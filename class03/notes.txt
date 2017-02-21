@@ -1,0 +1,100 @@
+ISat Feb 11
+
+JavaScript
+
+flow control - how to make some blocks of code execute at certain time
+
+if (condition)
+  more true/false in nature
+  executes code when condition is true
+  else enables an either-or true-false execution
+  multiple else statements acceptable
+  single = that's assignment
+  double == you're comparing
+  triple === checks for identity or exactness
+  != means not equal
+
+  if () {
+
+  } else if {
+
+  } else {
+
+  }
+
+while (condition) another variation is the do while
+  executes code when condition is false
+  continually executes code until the condition is false
+
+  while (condition) {
+  // keep doing this until condition is false
+  }
+
+for (initialize; condition; increment)
+  initialize a counter and any other variables, kinda like a place holder to keep count of the things
+  evaluate the condition before each cycle
+  increment (or decrement) counter variables accordingly
+
+  for (var count=1; count<=10; count++) {
+  // execute this block the specified number of times
+  }
+
+  can also use count--
+
+einstein quote = never memorize anything you can lookup
+
+
+Logical Operators
+
+boolean
+  true/false
+  AND &&
+    both values must be true
+    true && true = true
+    true && false = false
+  OR ||
+    either value can be true
+    true || true = true
+    true || false = true
+    false || false = false
+  NOT !
+    reverses value to it's opposite
+    !false = true
+operator
+  numeric
+logical operators
+  numeric
+  string
+
+truthy and falsy
+  0, nothing
+  1, something
+  blank text, nothing
+
+
+====================
+HTML Tables
+
+think spreadsheet - rows, cells, columns are mult stacked cells
+<table>
+<tr> row
+<td> cell
+<th> header
+
+merging cells
+horizontal
+  colpan = number of cells
+vertical
+  rowspan = number of rows
+  it will impact the other <td>'s
+
+====================
+GIT Branching
+
+git branch
+  * is the current branch
+
+git checkout -b class-03
+  -b to make a new branch, make sure in the branch you want copy
+
+git push origin class-03

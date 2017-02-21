@@ -1,0 +1,106 @@
+Wed Feb 8
+
+Web application vs website
+website is the umbrella
+may have many web apps (js) in it
+
+Attributes
+graphics <img src=“logo.svg”>
+	src is the attribute name
+	“logo.svg” is the
+
+hyper links <a href=“products.html”></a>
+	href stands of hyperlink reference
+
+File locations
+	absolute references: http://….
+	relative references: stat at current “images/logo.gif”
+	never directly reference something on your own hard drive
+	hierarchies
+		to go from this
+		http://www.cnn.com/2017/TECH/index.html
+		to this
+		http://www.cnn.com/2017/US/stocks.html
+		do this
+		<a href=“../US/stocks.html”>
+		(just like in terminal) or you can write full path at root dir “/2017/US/stocks.html”
+		but by using ../ if you move the TECH dir you don’t have to fix all the links
+
+html/js are client side = they operate in the browser. images and such are on the server
+
+images sometimes have border when you make a hyperlink, its a browser default like the hyperlink colors
+
+Lists
+<ol> ordered
+<li> unordered
+html bullets - disc, circle or square. but you can use an image instead
+use type="A" for letters
+
+====================
+JavaScript
+History
+netscape started client-side scripting language named LiveScript
+same time java support started
+changed name to JavaScript
+standardized version is called ECMAScript
+
+<script></script>
+you can have multiple of these
+HTML comment tags aren't necessary (left over from old browsers)
+
+<html>
+	<head>
+		<script type="text/javascript">
+			//javascript goes here
+		</script>
+	</head>
+	<body>
+		<!-- html goes here -->
+	</body>
+</html>
+
+javascript language components:
+- variables are not explicitly typed
+	- intended to be easy to just use var
+	- variable can hold any type
+	-
+- control statements are just like regular programming
+- end of statement = ";"
+- blocks of code use {}
+
+var today = new Date();
+uses a date object
+
+commands: alert, prompt, confirm
+or can use forms
+
+* Get information from the web page (form)
+* Modify the web page (change content) e.g. static html to dynamic
+
+myVar = myVar + 1 // standard method *works on strings
+myVar += 1 				// shortcut method *works on strings
+myVar++						// shorter shortcut, but only increments by 1
+
+camel case = capitalize each letter of work except first word
+best practice to write out full word - once you abbreviate, you over do it
+
+developer tools > javascript console
+type javascript then enter to run
+type variable name and see the current values
+
+====================
+Terminal
+pwd
+cd
+ls
+ls -l
+cat
+touch
+ls -a
+	this will show hidden files
+	. for current dir
+	.. for parent
+	.DS_Store which is something about macs
+	.git directory
+
+Git & GitHub

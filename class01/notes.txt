@@ -1,0 +1,79 @@
+Mon Feb 6
+
+Class Syllabus: https://github.com/mark-fitzgerald/code-201-n5
+
+Web application
+client server
+
+MVC
+Model - html - content
+View - CSS - presentation
+Controller - javascript - interaction/logic
+
+Web Surfing
+browser requests page from server
+serve finds and sends to browser
+domain name lookup
+http://www.cnn.com
+	com - top level domain
+	cnn - second level domain
+	www - subdomain (make up what ever you want, i.e. store.mybusiness
+convert domain name to ip address ex. 192.198.0.115 unique address to site
+server knows to send …./index.html
+	like directories
+	www.cnn.com/
+			2017/
+				TECH/
+					html.html
+web server is glorified file server
+important to organize, as site grows
+
+Web Page
+not a formatted word doc
+they are built each time they’re viewed
+	- text, positioning color…
+	- graphics, positioning, scaling…
+	- dependent on browser
+
+HTML
+html5
+hyper text markup language
+tags/elements
+	surround content
+	most tags have ending (XHTML is HTML in XML format, XHTML is super really old)
+	many tags have attributes
+Rules:
+	- even though ending tags are optional, you should include them
+	- always use quotes for attributes
+	- tags can be uppercase or lower, industry uses lower
+
+<!DOCTYPE html> declaration, tells browser you’re doing html5
+<html> required
+	<head> meta information
+	<title>Title</title> window name, also bookmark name
+	<script></script> this is the javascript, doesn’t have to be here
+	</head>
+	<body> required
+		content
+	</body>
+</html>
+
+white space = space, tab, return
+all show as one space, even multiple
+
+right click view page source, is not same as inspect
+
+<br> acts like a return, no ending tag, because not adding content, just visual
+<p> automatically adds some space, can change space size with css
+<h1> heading tag (not head or header)
+	auto bold, auto size and auto line break before and after
+	<h1> through <h6>
+semantic markup is helpful for developers, search engines and screen readers
+	like use h1, h2, etc appropriately to make it easier
+special characters &reference;
+	&	&amp;		ampersand
+	(c)	&copy;	copywrite symbol
+	tm	&trade;	trade mark symbol
+
+JS
+prompt(“the message you want”,”default response“);

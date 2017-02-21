@@ -1,0 +1,149 @@
+Sat Feb 18
+
+Code Review
+make sure only use id's for one element
+when check if they answered yes or no, build something in if they give a totally different answer.
+can use sometextelelment.innerhtml the console.log
+button align, some default formatting form the browser, text-align center doesn't work
+  .center-item {
+    display: block;
+    width: 100px;
+    margin: 0 auto; //this is how you center
+  }
+  normally want to stay away from adding html to get formatting, could get out of hand
+  css zengarden - same html with diff css
+move script tag to bottom
+put margin or padding on body not html
+padding: top bottom left right; (remember north east south west)
+if...
+result += ("<div class='crt'>Correct</div>");
+else...
+result += ("<div class=\"wrg\">Wrong</div>");
+
+
+=========================
+JavaScript - Arrays
+Put all your values in one bucket
+
+variables hold one value
+arrays can hold many values, of any type, or other arrays (multi-dimensional)
+
+it's an object, that isn't a number or a string
+
+var names = new Array();
+var classes = new Arrays(5);
+
+filling an array - one at a time or all at once
+
+var names = new Array();
+names[1] = "Mark";
+names[2] = "John";
+this array has null in first element
+
+var names = new Array("Mark","John");
+                      mark is names[0]
+                              john is names[1]
+
+location where values are kept are called elements
+use square brackets to specify an element
+
+Arrays start at element 0 (or old people call it index)
+
+place the array as one of the objects within another array
+reference the values with double sq brackets
+
+var names = new Array(
+new Array("Mark","Fitzgerald"),
+new Array("John","Doe"),
+new Array("Jane","Citizen"));
+
+alert(names[][]
+
+
+===========================
+CSS - The Box Model - how CSS works with elements in a web page
+How Elements are Drawn
+
+everything is a box
+
+p {
+  width: 500px;
+  padding: 10px;
+  border: 3px solid green;
+  margin: 15px; /* margins dont effect box width, spaceing between other things*/
+}
+
+Box Sizing - CONTENT box or BORDER box
+so like how much space is keft for the content
+
+Inline
+  Flows with text, even wrapping to lines below
+  Dimensions cannot be set
+  top and bottom margins are ignored
+  <a>,<img>,<span>
+Block
+  Takes up entire width (nothin on sides)
+  Dimensions can be set
+  Can constrain
+  <p>,<div>,<h1> these go entire width of the page
+Inline-Block (hybrid)
+  Flows with text, unless dimensions are set
+  Can sit next to other inline or inline-block elements
+  two <p> wont sit next to eachother unless you make inline bock
+
+===========================
+HTML Forms
+Sending data to the server
+
+Input field
+Radio buttons
+Checkboxes
+Button
+Scrollable list
+Dropdown list
+Free-form text
+
+each item has a value that is sent to the server
+
+<input>
+type="text"
+enables the sending text to server
+no limit of text (unless specified)
+
+type="radio"
+mutually exclusive
+button exclusivity is based upon its name
+
+type="checkbox"
+enable multiple choices
+value sent only if the button is checked
+
+type="submit"
+automatically send data
+
+type="reset" resets forms
+type="button" used for associating javascript
+
+...more input/type options...
+
+value="" attribute 'controls' everything
+
+List objects: <select>
+Choice is sent to the server
+Use <option> to specify list items
+
+List objects: <select>
+same as dropdown except number of lines displayed on screen
+more options cause scrollbar to show
+
+Free-form Text: <textarea>
+use in times where a lot of text is to be entered
+ending tag required - pre-fill text goes between tags
+content is still access by its value attribute in javascript
+
+binding tag: <form>
+objects belong to a form
+action attribute specifies resulting page to display
+method attribute determines how data is sent
+think fence
+all the objects value get sent to server as one set of data

@@ -1,0 +1,51 @@
+Mon Feb 20
+
+Code Review
+create a generic function to analyze the user's answer
+document.theNameOfYourForm.elements[theNameOfYourElement].value;
+
+
+======================
+JavaScript Objects
+variables - hold one value
+arrays - hold many items, even mix of items
+objects - hold many variables, contains many functions
+
+initialization with empty block or use new Object()
+var student = {};
+var instructor = new Object();
+
+variables = properties with [] or dot syntax
+student["name"] = "John Doe";
+instructor.name = "Jane Expert";
+
+functions = method, syntax of declaration is reversed
+student.sayGreeting = function() {
+  alert("Hello, I'm " + student.name);
+}
+student.sayGreeting();
+
+*can have many variables in object and functions
+
+this is object literal -assigning values right away
+var student = {
+  name: "John Doe";
+  sayGreeting: function() {
+    alert("Hello. I'm + this.name");
+  }
+}
+
+=======================
+Assignment
+make new repo cookie-shop
+FIRST - make html page with static data
+SECOND - make the js to make all the data
+start off with the list (then we'll add to a table later)
+
+create store object, and has everything about that store
+
+every page refresh has diff numbers
+
+vary between css and js, so see things start to take place
+
+do google search how to do custom font - another style ref to google font

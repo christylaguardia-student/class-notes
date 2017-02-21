@@ -1,0 +1,195 @@
+Mon Feb 13
+
+Code Review
+
+triple equals
+this doesn't work
+if (userAnswer4.toLowerCase() === 8) {
+this will work
+if (parseInt(userAnswer4) === 8) {
+
+================================================
+Functions
+
+help developer to expand capabilities
+declared using 'function' keyword and curly braces to contain the code
+each function has a name, whatever you want, no spaces, no dashes, use camelCaseLikeThis
+parenthesis designate the parameters, even if none exist
+
+function getUserName(){
+  var userName = ...
+}
+
+scope - variables are accessed at different places
+global - declared outside of any function or object, can be accessed from anywhere
+local - declared inside code blocks, only accessible from within code blocks
+
+function parameters
+parameters pass data into a function, local in scope and help customize the function
+
+<script>
+  var greeting = "Hello World"; //global scope
+
+  function getUserName() {
+    // local scope only works here
+    var userName = prompt("What's your name?","");
+    return userName;
+  }
+
+  function sayHello(nameToUse) {
+    if (nameToUse == "") {
+      alert(greeting);
+    } else {
+      alert("Hello " + nameToUse);
+    }
+  }
+
+  // or do this
+  sayHello(getUserName());
+</script>
+
+<input type="button" value="Say Hello" onclick="sayHello(getUserName())" ...
+
+<button onclick="sayHell0(getUserName())">Login</button>
+
+type greetPerson() in browser console
+
+function getUserName() {
+  var userName = prompt("Please write your name:","");
+  if ((userName === "") || (userName === null)) {
+    userName = "visitor";
+  }
+  return userName;
+}
+function greetPerson(nameToGreet="visitor") { // default value if they don't put a name, if this parameter isn't passed
+  var greeting = "Welcome " + nameToGreet + "!";
+  var today = new Date();
+  greeting += "\n" + (today.getMonth() + 1) + "/" + today.getDate() + "/" + today.getFullYear();
+  alert(greeting);
+}
+
+================================================
+Cascading Style Sheets
+
+concept
+one time setup of fonts, color, sizes, etc.
+precise control over appearances of text
+centralized management of entire web site
+old way was putting all they styling tags in the html, new way is using CSS
+
+inline, page specific or external
+<a style="color: #330066">
+<style> a {color: #330066} </style>
+<link rel="stylesheet" href="styles.css" type="text/css">
+
+associate with a tag
+- list tag name without the < >
+- {} enclose the associated info
+- elements are listed as name: value;
+
+p {
+  font-family: arial, helvetica, sans-serif; // sans-serif without decorations, not the font name but whatever you have w/o decorations
+  font-size: 14px;
+}
+
+td {
+  font-family: arial, helvetica, sans-serif;
+  font-size: 12px;
+  color: #333333;
+}
+
+class (can be used on many elements on the page)
+- name is user defined
+- precede name with a period
+- invoke by using "class" attribute in the HTML tag
+
+<style>
+  .purple {
+    font-family: arial, helvetica, sans-serif;
+    font-size: 14px;
+    color: purple;
+  }
+</style>
+
+<p>Some random text for the <span class=".purple">class</span> css example.</p>
+
+ID (like a name, its unique, so only get to one element on the page)
+- name is user defined
+- precede name with #
+- invoke by using the "id" attribute in the HTML tag
+
+<style>
+  #menu {
+    font-family: arial, ...;
+    font-size: 14px;
+    color: white;
+  }
+</style>
+
+<ul id="menu">
+  <li>Home</li>
+  <li>Products</li>
+  <li>Services</li>
+  <li>About Us</li>
+</ul>
+
+combine the methods
+- tags can have many variations by using classes
+- specific "selectors" can be strung together to determine special situations
+
+
+use digital color meter in apps
+
+
+put in <head>
+<link rel="stylesheet" href="styles.css">
+
+
+================================================
+Color
+
+primaries: red, yellow, blue
+
+computers use light to make colors
+
+html colors are RGB-based
+  red, green, blue
+
+hexidecimal
+  count 0 to 15, sixteen possible digets
+  instead use 0-F
+  0123456789ABCDEF
+  #RRGGBB
+    red-red-green-green-blue-blue
+  0 means not color, F means full intensity
+  #FF0000 red
+  #00FF00 green
+  #0000FF blue
+  #FFFFFF white
+  #FFFF00 yellow
+  #00FFFF cyan
+  #FF00FF magenta
+  #FF7F00 orange decrease the pull of the green part
+  #996633 brown, like orange but darker
+
+rgb is same as hexidecimal but decimal equivalent from 0-255
+
+rgba a for transparency component
+
+cyk
+
+hue saturation light
+
+for legacy stuff, put it before the default thing that all browsers can use
+
+
+================================================
+DOM
+
+function whatever() {
+  ... do the stuff ... assign the variable ...
+  var answer = document.getElementById("putItHere");
+  alert(answerParagraph.innerHTML);
+}
+
+then in your html use the id="putItHere"

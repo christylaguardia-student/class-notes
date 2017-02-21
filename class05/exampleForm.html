@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="exampleForm.css">
+    <script>
+      function showName() {
+        var form = document.forms["registration"]; // this gives reference to form
+        var firstName = form.elements["first_name"];
+        var lastName = form.elements["last_name"];
+        alert(firstName.value + " " + lastName.value);
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Form Example</h1>
+    <form action="exampleFormThankYou.html" method="post" name="registration">
+      First Name: <input type="text" name="first_name" placeholder="first name"><br>
+      Last Name: <input type="text" name="last_name" placeholder="last name"><br>
+      What's your favorite class:<br>
+      <input type="radio" name="favorite_class" value="101">Code 101<br>
+      <input type="radio" name="favorite_class" value="102">Code 102<br>
+      <input type="radio" name="favorite_class" value="101">Code 201<br>
+      <input type="radio" name="favorite_class" value="301">Code 301<br>
+      <input type="radio" name="favorite_class" value="401">Code 401<br>
+      What's your next class:<br>
+      <select name="next_class" size="4"> <!-- size changes it from drop down to list box -->
+        <option value="101">Code 101<br>
+        <option value="102">Code 102<br>
+        <option value="201">Code 201<br>
+        <option value="301">Code 301<br>
+        <option value="401">Code 401<br>
+        <option value="401">Code 501<br>
+      </select><br><br>
+      <input type="button" onclick="showName()" value="Show Name"><br><br>
+      Please tell me about yourself:<br>
+      <textarea name="bio"></textarea><br><br>
+      <input type="submit" value="Sign Me Up">
+    </form>
+
+  </body>
+</html>
