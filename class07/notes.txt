@@ -1,0 +1,91 @@
+Sat Feb 25
+
+Semantic HTML5
+semantic means meaning behind your info
+
+display types
+  block
+  inline
+  inline-block
+
+common tags
+  h1
+  p
+  div
+  ol,ul
+  a
+  img
+
+HTML5 tags
+  <header> container of header items
+  <section> container of related content
+  <article> content this self contained, this is the main part of whatever you're displaying, could stand as webpage by itself in terms of content
+  <nav> holds items that make up navigation
+  <aside> content related to article
+*these are all block elements - basically, they are div tags with more descriptive names
+
+(responsive design - one website, changes how displayed for each display - mobile first - desktop first)
+linda.com
+
+example layout
+header
+navigation content(header article footer) side
+footer
+
+selecting what get styled:
+  by HTML element/tag
+  p {font-family: ...}
+
+  by pseudo-element
+  p:first-letter {font-size: 24px;}
+  -->look these up
+
+  by class
+  .heading {font-weight:...}
+
+  by pseudo-class
+  a:hover {background-color: #CCCCCC;}
+  helps provide feedback i am a link
+
+  by id
+  #menu {top: 200px}
+
+changing how tags are displayed
+each tag has default setting: block, inline or inline-block
+tags are often changed to inline-block - to keep things inline, specify dimensions
+sometimes inline items need to be block - images are inline by default (think like text)
+hiding items by specifying display:"none"
+
+
+=======================
+don't add tags for css things
+but add tags for the semantics
+
+
+=======================
+Building block of the DOM
+
+DOM = document object model
+defines the method of accessing objects and properties in a document
+objects are referred to as nodes
+nodes: root, parent, child, sibling
+methods
+  getElementsByTagName() - can use for part of page
+  hasChildNotes()
+  childNotes - returns list of nodes
+  firstChild, lastChild, parentNode
+  nextSibling,
+  nodeValue - returns text in a node
+  nodeName - name of the element
+  nodeType
+
+NodeTypes
+ Element 1
+ Attribute 2  <img src=""> img is 1, src is 2
+ Text 3
+ Document 9
+
+DOM the tree
+html is the root node (technically DOM is the root)
+head & body are child of html, and siblings
+body - header, section & nav are children of body, and siblings
