@@ -1,0 +1,73 @@
+Mon Feb 27
+
+Code Review
+document
+document.childNodes
+document.children
+nodes represent everything in the document
+  white spaces are text nodes
+dom tree are the elements
+
+
+function tableViaDOM() {
+  var table = document.getElementById("tableDOM");
+  var tableRow = document.createElement("tr");
+  var tableData = document.createElement("th"); // blank for the store name
+  tableRow.appendChild(tableData);
+
+  // add headers for each hour
+  for (var index = 0; index < hours.length; index++) {
+    tableData = document.createElement("th");
+    tableData.textContent = hours[index];
+    tableRow.appendChild(tableData);
+  }
+
+  // add header for the total
+  tableData = document.createElement("th");
+  tableData.textContent = "Total";
+  tableRow.appendChild(tableData);
+  table.appendChild(tableRow);
+
+  // add store data rows
+  for (var storeIndex = 0; storeIndex < hours.length; storeIndex++) {
+  var storeToUse = stores[storeIndex];
+  var tableRow = document.createElement("tr");
+    for (var index = 0; index < storeToUse.length; index++) {
+      tableData = document.createElement("td");
+      tableData.textContent = storeToUse[index];
+      tableRow.appendChild(tableData);
+    }
+  }
+}
+
+1) get reference to table
+2) make a row for the headers
+3) add the row to the table
+4) make a the cell
+5) loop through hours array and add data
+6) ...do the same for the store rows...
+
+TODO: change my header array to have separate one for hours, so you can add hours
+TODO: change constructor object to capital
+
+========================
+JavaScript Objects - Constructors
+
+var student = {};
+student["name"] = "John Doe"; // like an array, look up the property
+var instructor = new Object();
+instructor.name = "Jane Expert";
+
+functions are called methods
+initialization all at once
+
+constructor builds a template
+var Person = function(suppliedName) {
+  this.name = suppliedName; // use equal signs and semicolins instead of colins and commas
+  this.sayGreeting = function() {
+    alert("Hello. I'm " + this.name);
+  }
+}
+
+var student = new Person("John Doe");
+var instructor = new Person("Jane Expert");
