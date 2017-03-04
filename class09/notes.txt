@@ -1,12 +1,50 @@
 Sat Mar 4
 
-Class 08
-
 Code Review
-+++BREAK+++
+readMeH3s.find(function(element){return (element.textContent=="Class 9")})
 
-Text Formatting (CSS)
-DOM Rendering (lists)
-+++BREAK+++
+==============
+CSS Positioning
+static - normal rendering, position statements have no effect, can use when want to inherit
+relative - based on starting position
+absolute - uses top-left corner of parent
+fixed - placed as specific within the browser, uses top-left corner of window
 
-Constructor Functions
+position (top, bottom, left, right)
+margin (negative #s ok) will effect other items on page
+padding (only positive #s) space between content and border
+
+==============
+CSS Selectors
+Specifying which elements to style
+
+  Descendent
+  nav a {color: red;}
+
+  Child
+  ul > li {color: yellow;}
+
+  Sibling
+  li + li {color: green;}
+
+Specificity - more general to specific
+  tag name
+  class / attribute
+  ID
+
+
+ID + Class + Tag = total
+
+==============
+JavaScript Events
+
+code is executed when the user initiates an action
+  clicking
+  mouse move
+  change data in form
+  load page
+  //
+  onClick
+  onMouseOver
+  onChange
+  onLoad
