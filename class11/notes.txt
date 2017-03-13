@@ -1,0 +1,26 @@
+Sat Mar 11
+
+Code Review
+
+where changing to check image, loop through img and remove event listeners
+
+use products.votes instead of results array
+
+add to recordClick function:
+var foundProduct = products.find(function(product){return (product.fileName == itemSource)});
+
+then in the showResults - can get rid of the nested for loop
+
+
+add transition to progress bar css
+transition: width 1s; //seconds
+
+transition: box-shadow .5s;
+
+css flipping
+
+add to progress and bar:
+border-radius: 20px
+transition:
+box-shadow: inset 0 5px #7f7f7f;
+look up gradient for 3Dish look
