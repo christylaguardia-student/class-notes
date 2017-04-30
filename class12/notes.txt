@@ -1,0 +1,71 @@
+Mon Mar 13
+
+Code Reviews
+
+change img to div with
+  background-image: url(img/.....jpg);
+  background-size: auto 300px; //set height
+  background-repeat: no-repeat;
+  background-color: white;
+  background-position-x: 50%; //this will center it
+then change click event to not use src attr, but look at style to get filename
+lookup data attribute in html tag, use that as the product name instead of looking up the file name...
+
+
+====================
+JavaScript Local Storage
+
+localStorage.setItem("key","the value you want to save");
+
+localStorage.setItem("test","Hello World");
+localStorage.getItem("test");
+
+it's saved even when page is refreshed or browser is closed
+it't specific to the website
+
+must be a string, it will convert numbers to strings and give you string back
+
+
+in console Application > Local Storage > File...
+delete at the bottom
+or localStorage.clear()
+
+
+session storage is like local, but as soon as your browser tab goes away it's gone
+local storage doesn't expire, it stays until you tell it to go away
+
+window.localStorage - but don't have to use the window. just localStorage
+
+if put array into localStorage, it'll return back a string, so use localStorage.getItem("arrayName").split(",");
+
+if put object into localStorage, use JSON = "JavaScript Object Notation"
+
+JSON.stringify(productsArray); // convert object to sting
+localStorage.setItem("products", JSON.stringify(productsArray));
+localStorage.getItem("products").split(","); // this doesn't work right
+JSON.parse(localStorage.getItem("products").split(",")); // converts string back to object
+then it returns as an object but not a Product object, so if theres methods you can use them
+
+
+====================
+Building app from scratch
+
+write it out:
+
+Data
+  Student Info
+    Name
+    gitHub
+    picture
+    Code Review History
+
+  Class/Assignment Info
+
+Functionality
+  Randomizer
+  Data persistence
+  Class # finder
+
+
+start with html
+then work on javascript
