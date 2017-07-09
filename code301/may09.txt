@@ -1,0 +1,42 @@
+Tue May 9
+
+portfolio 6 due friday, may 12th
+
+SQL
+crud = create, read, update and delete
+
+chrome had sqlight imbeded
+
+store - mongo db
+
+DDL = data definition language
+DNL = data 
+
+ordered acii-bettically
+
+psql client is the sql shell
+
+for help wiht sql shell use:
+help
+\?
+space for more
+
+must have ;
+
+use \q to quit session
+
+\l to list all dbs
+
+use utf-8 for encoding
+
+use this to connect to db
+\c databasename
+
+\dt will list th tables
+
+\d tablename will show the columns in the table
+
+
+pgAdmin
+
+db visualizer

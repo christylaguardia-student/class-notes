@@ -1,0 +1,90 @@
+Mon May 22
+
+tue lab
+wed cowork
+thur cowork
+next mon no class
+
+can call functions from other functions
+
+page('/users', findusers, showusers)
+
+function findusers(ctx, next) {
+	$.ajax('/users').then(()=>
+	next();
+	)
+}
+
+function showusers (ctx, next) {
+	
+}
+
+_____
+
+REST & APIS
+
+*REST is the CRUD over HTTP
+
+REST = representational state transfer
+HTTP = like GPS for knowledge, apply VERB to NOUN
+URL = uniform resource locator, points to the representation of a resource
+Web page = represntation of some info in HTML
+
+XML-RPC/SOAP (OLD DONT USE THIS ANYMORE)
+same method, varing endpoints
+GET /getComment
+GET /getComments
+GET /addComment
+
+vs.
+
+RESTful routes
+HTTP method + resourse
+GET /comments/:id
+GET /comments
+POST /comments
+
+each endpoint is a route, made of noun and verb
+
+HTTP is stateless
+	- reqs dont have memory
+	- no individual req may be asuumed to know anything abut any other req
+	- all reqiured info representing the possible actions to take should be present in ever reponse
+	- hypermedia: here's the thing you asked for, here's what you can do next
+
+APP STATE AND TRANSITION
+GET: asks for the current state
+POST/PATCH/PUT/DELETE: chages the state
+PATCH is like a partial put
+
+state -> transition -> state -> transition -> state
+
+_____
+
+curl --version
+
+curl === $.ajax()
+curl is an ajax call
+
+gihub api
+Basic
+OAuth Token
+
+example
+
+curl -H "Authorization: token OAUTH-TOKEN" https://api.github.com
+
+
+curl -H "Authorization: token fe57f0b05cdb22fbc50a39738c8b3f9750419128" https://api.github.com "https://api.github.com/user/repos?type=owner"
+
+
+github will reject any commits with tokens, and it will trash your token
+
+so we need a file that has the tokens what will be ignored by github
+
+.gitignore
+
+
+make file githubtoken.js
+var githubToken = 'fe57f0b05cdb22fbc50a39738c8b3f9750419128';
+

@@ -1,0 +1,39 @@
+Tue May 30
+
+Portfolio 12 due Fri June 2
+Portfolio 13 due Mon June 5
+Portfolio 14 due Mon June 14
+
+
+Middleware
+in between request and response
+example use: authentication
+
+page('/', firstfunction, secondfunction);
+
+page('/', articlesController.loadtemplate, articlesController.index);
+
+chain of functions
+
+instead of calling next() in loadtemplate
+
+articleController.loadTemplate = function (ctx, next) {
+	$.get('/articles', function (data) {
+		Articles.all = data;
+		next(); // wait until async func done before
+	})
+}
+
+
+~~ fancy way to do a parse int
+
+dont forget to invoke page();
+
+setTimeout(functionName, 300); // 300 milsec befor calling
+
+'chain of command' you have to call the next function or its broke
+
+
+State
+not in db, cloud, local storage - just what the user is clicking on before refresh
+

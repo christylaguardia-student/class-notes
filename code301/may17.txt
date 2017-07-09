@@ -1,0 +1,14 @@
+Wed May 17
+
+must know these api verbs/actions
+get
+put
+post
+delete
+
+good to know these too
+head
+option
+
+IIFE = immediately invoked function expression
+

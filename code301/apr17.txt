@@ -1,0 +1,24 @@
+Mon Apr 17
+
+Responsive web design
+
+@media queries
+
+SMACCS = scalable and modular architecture for CSS
+	1. Base
+	2. Layout
+	3. Module
+	4. State
+	5. Theme
+
+em - size from parent
+rem - size from root
+
+Agile development
+old days - waterfall process
+
+MVC = model view controller
+	model: source material or data
+	view: presentation scheme
+	controller: behavior management
+

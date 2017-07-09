@@ -1,0 +1,76 @@
+Tue May 2
+
+
+articleView.create = function() {
+	// do this anytime something on the form changes
+	var article;
+	$(‘#articles’).empty();
+	
+	article = new Article({
+	title: $(‘#article-title’).val();
+	// do the other form fields
+	publishedOn: $(‘#article-published:checked’).length ? new Date() : null
+	});
+}
+
+
+$(‘#new-form’).on(‘change’,’input, textarea’, articleView.create);
+
+articleView.create is a variable that represents a function, don’t need ()
+
+
+need to empty form
+
+JSON.stringify(article, null, 2) // this will pretty print in the console
+
+
+
+WRRC = web request response cycle
+
+
+view - controller - model
+
+
+ports
+http 80
+https 443
+
+need ip address and port (like building address and apartment address)
+
+postgresql 5432
+mysql 3306
+
+
+
+
+JSON = javascript object notation
+always use “” with JSON
+numbers don’t need qutoes
+true false null can be bare
+is a standard way to serialize your objects - i want to past over network, also convert it to a string
+dehydration for data structures
+usually more compact that xml (markup language like html)
+JSON has taken over xml
+works well with AJAX
+
+AJAX = asynchronous javascript and XML
+(but we don’t do XML)
+don’t have to re-load the web page
+SPAs = Single-Page Apps
+faster interaction
+fetch just what you need
+update only what changes
+stay in touch with the server
+1. send a request: get, post, head, put
+2. register an async callback function to handle the response
+	success
+	error
+
+‘use strict’ mans you can’t have an undeclared variable
+
+
+let = changes the scope, different from var
+
+const = variables that can not change, unless it’s an object you can change the things inside it
+
+

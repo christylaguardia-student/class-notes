@@ -1,0 +1,84 @@
+Sun May 7
+
+portfolio 4 due today
+portfolio 5 due tomorrow
+
+reading due tuesday
+
+Client-server architecture
+
+NodeJS
+npm is package manager for node
+follow the express framework tutorial on tutorials point
+
+npm install express
+
+express is your web server
+need to have package.json file for new npm project
+
+npm init
+
+npm will then install a bunch of packages under node_modules folder
+if gets corrupt you can delete
+npm install body-parser --save
+
+localhost is you computer
+127.0.0.1 is your computer’s ip address
+8081 is the port
+3000 is typically then port for express
+
+to start server
+node server.js
+ 
+to kill server
+ctrl+c
+
+
+
+REPL = Read Eval Print Loop
+
+
+node hello.js
+this cmd will run the js file in the terminal
+
+
+```
+‘use strict’
+const express = require(‘express’)
+const app = express()
+const PORT = process.env.PORT || 3000 // if this port doesn’t exist, make it
+
+app.use(express.static(‘./public’))
+
+app.get(‘/‘, function(request, response) {
+	if (request.body.username === ‘foo’ && request.body.password === ‘secret’) {
+		response.sendFile(‘./public/index.html’)
+	} else {
+		
+	}
+})
+
+```
+
+
+
+
+posting form to server
+
+to start server
+npm start
+
+use body-parser library
+
+npm install body-parser —-save
+
+
+
+
+public folder is anything running on client
+basically unless its in this folder, it’s running on the server
+app.get(‘/‘, function(request, response) {
+	response.sendFile(‘./public/index.html’)
+})
+
+

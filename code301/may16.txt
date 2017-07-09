@@ -1,0 +1,32 @@
+Tue May 16
+
+Ken here tomorrow, not thurs
+
+Functional Programming
+
+JavaScript programs start with programs, not class
+
+what is it?
+- immutability (vaiables don't varry, once you set it stays)
+- declarative vs imperative code
+- stateless (pure) functions
+- first-class functions and currying
+
+most of what we'll do - have array and call methods
+
+but array methods don't mutate the data
+
+---> look for opportunites to remove changing a variables value
+
+react uses functional programming
+
+
+array functions
+.forEach
+.filter
+.reduce
+
+
+arrow functions
+let foo => () console.log('hello world');
+

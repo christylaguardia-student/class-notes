@@ -1,0 +1,26 @@
+Sun Apr 23
+
+Events & jQuery
+
+.on()
+
+$(‘#example-1’).on(‘click’,function(e) { console.log(‘Button Clicked’); });
+
+why pass e? to see position of element that the event was on, or get it’s value
+
+.on(‘click’,….
+short hand is just .click(…)
+
+$(‘img[data-flavor=“’ + $selection + ‘“]’).show()
+
+
+
+___________________________________
+
+for portfolio assignment: create branch for each class, then do pull request -> master and submit in canvas
+
+___________________________________
+
+$(’article[data-author=“’ + $(this).val() + ’”]’).fadeIn();
+is the same as
+‘$(article[data-author=“${$(this).val()}’]’).fadeIn();

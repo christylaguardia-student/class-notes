@@ -1,0 +1,32 @@
+Thu May 11
+
+listening to a port = server
+talking to a port = client
+
+
+user <-> cloud (index.html, app.js)
+cloud <-AJAX-> server.js (express, ps)
+server.js <-> postgres (db)
+
+
+server.js
+
+require('pg') is node's postgres client
+
+connection string = 'postgres://username:password@host:port/databasename'
+
+has to be url encoded, %20 is a space
+
+create connection string and client
+
+then connect
+
+app.use(bodyParser)
+
+
+
+in terminal
+node server.js
+
+in browser localhost:3000
+

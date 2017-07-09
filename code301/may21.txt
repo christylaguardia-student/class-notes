@@ -1,0 +1,44 @@
+Sun May 21
+
+use fat arrow => syntax for call backs
+
+mon may 22 rest lecture
+no portfolio 9
+mon may 29 porfolio 10 & 11 due
+
+
+
+URLs and Routing
+
+MVC
+contoller = router like a traffic cop, give url gives function
+
+don't need html pages, when we have routes
+
+REST endponts
+GET: /
+GET: /about
+GET: /articles/42
+GET: /articles/42/edit
+PUT: /articles/42
+
+POST is create
+PUT is edit
+
+
+scripts >
+	models
+	views
+	controllers
+
+page.js
+
+npm install ........
+
+~~ converts string to int, same as parseInt()
+
+page.base('/albums')
+page.('/', '/photos/0')
+page.('*', 'not found')
+page.load()
+

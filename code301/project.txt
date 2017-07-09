@@ -1,0 +1,50 @@
+Code 301 Final Project
+
+Pitch:
+
+	Platform for repair hobbiests to advertise, buy and sell used car parts. 
+
+Requirements:
+
+	Buyer	- As a user, I need to post a part to sell
+			- As a user, I need it to be easy to use
+			- As a user, I need to know the location of the part
+	
+	Seller	- As a user, I want to search for parts to buy for car that I am working on
+			- As a user, I need to search year, make, model
+
+	Technical
+		- mobile first
+		- single page app, with 3 sections/pages
+		- user info stored in a database
+		- user searches stored in local storage
+		- (STRECH) store user profile, with sign in
+		- (STRECH) drop-down values filter after each selection (Year, Make, Model)
+
+Domain Model:
+	
+	[User] <-> [Parts]
+
+	Page 1: Buy & Sell buttons
+	Page 2: Form to post to classifieds
+	Page 3: Dropdowns to search classifieds
+	Page 4: Show classifieds (posts)
+	Page 5: (STRECH) Post to willing to buy/trade
+
+Workflow:
+
+	Buyer - click "Buy" button, selects Y/M/M dropdown, view posts
+
+	Seller - click "Sell" button, fills out form, click "Post" button
+
+GitHub Repo:
+
+	https://github.com/christylaguardia/garage-fellows
+
+Heroku Link:
+	
+	
+
+Team Name:
+	
+	Garage Fellows

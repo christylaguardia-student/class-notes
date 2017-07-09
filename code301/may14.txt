@@ -1,0 +1,36 @@
+Sun May 14
+
+no portfolio for today
+
+this week
+Mon May 15 portfolio 7 due
+Fri May 19 portfolio 8 due
+
+next week
+Wed May 17 lab 10 with ken
+Mon May 22 lecture 12
+Tue May 23 lab 12
+Thu May 25 no ken
+
+
+SQL Joins and Relationships
+
+with mongodb you don't need to know what your data looks like, ie schema, is flexable
+
+FK REFERENCE
+person_id INTEGER REFERENCES person(person_id)
+
+inner join, typically can just use join
+
+1:1
+1:many (can use crows feet or *)
+many:many
+
+when having many:many, must have a intermediate table
+
+self referencing table for tree
+|_parent
+	|_child1
+	|_child2
+		|_subchild1
+

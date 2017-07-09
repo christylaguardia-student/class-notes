@@ -1,0 +1,91 @@
+Sun May 28
+
+no school tomorrow
+portfolio 10 & 11 due tomorrow
+
+project
+	3 interlinked project
+	2 pages with form
+	state must persist
+	must use api or db, preferably both
+
+
+Deployments
+Heroku
+we can use postgres as a plugin
+heroku builds on aws, so more expensive
+
+development -> staging/qa -> production
+
+
+git push heroku master
+
+what you'd have to do, instead heroku does:
+1. create a distrubution (aka build)
+	zip file
+2. upload it to the server (-> aws)
+3. unpack
+4. start services
+
+heroku log
+
+dynos run a single command process
+small one is free
+you can scale up
+
+add-ons
+	postgres
+	nodetime
+	new relic (analyics)
+	redis to go (key value store)
+	blitz
+	email
+	push notifications
+
+
+test locally first
+before deploying
+
+.env are vaiables that are specific to your environmen
+	put the postgres password, host name, username here
+
+
+open your deployed site in browser
+heroku open
+
+run console in terminal
+heroku run node
+
+
+heroku local vs npm start
+
+
+make sure everything is pushed to git b4 Heroku
+
+also try ocean
+
+
+Development vs Production
+
+whiteboard
+	expermental branches
+	parallel dev
+	merging
+	parallel env
+		combat training vs real combat
+		prototypes vs COTS units (commercial off the shelf)
+		beta test vs product launch
+		local server, environment, client code vs server code
+
+Linux Kernel - heart of the operating system
+
+
+
+
+cfpdx-13-crl-deployment
+
+
+
+git push heroku yourbranch:master
+
+heroku open

@@ -1,0 +1,9 @@
+edit bash profile in cmd line
+vi ~/.bash_profile
+
+edit bash profile in editor
+atom ~/.bash_profile
+
+put double qutoes arround stuff/
+export pgURL="postgres://postgres:miyagi@localhost:5432/garagefellows"
+export GITHUB_TOKEN="fe57f0b05cdb22fbc50a39738c8b3f9750419128"

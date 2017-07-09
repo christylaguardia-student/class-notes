@@ -1,0 +1,82 @@
+Sun Apr 30
+
+May 1st portfolio 3 due
+May 2nd read pages 367-408
+May 2 quiz 2 due
+
+today’s peer assignment done as class, don’t have to turn it in
+
+
+this will add spacing between content
+
+.clearfix::after {
+	content: “”;
+	clear:
+}
+
+
+when working with time zones, use UTC
+
+PST pacific std time
+PDT pacific date time
+
+subtracting dates, millasecs from 1/1/1970
+convert to days =
+delta / (1000 milsec/sec * 60 sec/min * 60 min/hr * 24 hr/day)
+
+always include the base with your parseInt
+parseInt(delta / (1000 milsec/sec * 60 sec/min * 60 min/hr * 24 hr/day), 10)
+
+
+tertiary
+(bool) ? a : b : (bool2) ? b : (bool3) ? c:d
+
+this.publishStatus = this.publishedOn ?
+	`published ${this.daysAgo} days ago` : ‘(draft)’;
+
+is the same as
+
+if (this.publishedOn) {
+
+} else {
+
+}
+
+
+marked.js will convert text into markdown input
+this.body = marked(this.body);
+
+
+
+<form action=“#” id=“new-form”>
+	<input type=“text” id=“article-title” placeholder=“Article Title” required />
+	<textarea id=“article-body” rows=“8” cols=“40” required></textarea>
+	
+
+</form>
+
+
+.empty() to reset the form using jQuery
+
+instantiate —> var article = new Article();
+
+var articleTitle = $(‘#formtitleid).val();
+var rawObject = { put in the form data }
+var article =  new Article(rawObject);
+
+
+// use handlebars to add the page to the DOM
+$(‘#articles’).append(article.toHtml());
+
+
+if checkbox is checked, set the date to today
+var publishedOnDate = $(‘article-published’).is(‘:checked’) ? new Date() : null;
+
+
+for code blocks in markdown use ```
+
+
+highlight.js is library for coloring code blocks like ide
+hljs.hightlightBlock(block);
+
+

@@ -1,0 +1,74 @@
+Tue Apr 25
+
+mondays - work on portfolio
+tuesdays - lecture
+wedesdays - work on portfolio
+thursday - lab
+sunday - lecture & lab
+
+____________________
+
+HTML Tempting system
+- it is a template processor (executable code) together with a template specification
+- the developer create a template that must comply with the template spec, the template contains common data & metadata & placeholders
+- the template processors maps (processes & combines) data (like from a database) to the templates to from valid, usable web pages
+- the HANDLEBARS template system is very common
+- handlebars provide placeholders that are filled in with data when a handlebars.js is compiled
+
+Typography
+- its about utility, legibility & design
+- typeface, ascdeder height, deceder height, …
+	pixels = set hight
+	em = set by nearest element
+	rem = set by the body, "root em”
+	***typically use the rem, em ok too
+
+1em = 10px on default browser setting
+
+____________________
+
+Handlebars
+you’ll need to get the script tag
+this is the template
+<script id=“template” type=“text/x-handlebars-template”>
+   <p>{{ title }}</p>
+   <p>{{ name }}</p>
+   <p>{{ age }}</p>
+   <p>{{{ favorite }}}</p>
+</script>
+
+{{ double curly braces are for text ***use this most of the time***
+{{{ triple is if you have html in it already
+
+then your object KEYS MUST MATCH, use the same properties (i.e. title, name)
+var myobj = {
+	title: ‘Ms.’,
+	name: ‘Christy’,
+	age: 30,
+	favorite: ‘<h1>Charlie</h1>’
+};
+
+
+this will use jQuery to get by id and get all the html code
+$(‘#template’).html();
+
+to use handlebars:
+1) give it a template
+2) then it gives you a function
+3) and then you feed the function it data
+
+____________________
+
+String Concatenation
+use +
+backtick `
+es6 template file (the way of the future), works in node and chrome but not ie9
+
+` and $ DO NOT MEAN JQUERY
+
+{{	}} these are delimiters
+
+${{`	`}}
+
+____________________
+
