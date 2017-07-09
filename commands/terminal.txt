@@ -1,0 +1,55 @@
+git status
+git add .
+git commit -m "your message"
+git push origin yourbranchname
+
+atom .	opens the current directory in atom
+code .	opens the current directory in vs code
+open http://www.google.com	open in browser
+open .	opens the current directory in finder
+
+cd ~	go home
+cd -	previous directory
+cd ..	up a directory
+
+cat 	show contents of file
+
+pwd	print working directory
+|	chain cmds
+>	redirect output will create
+>>	redirect output will append
+tab
+CTRL+c
+`<cmd>`
+path
+
+which code
+
+home
+
+awk
+git status
+git status | awk {'print $2'}
+git reset HEAT `git status | grep text | `
+
+du	disk space in folder
+df	free disk space
+
+*** need to learn these ***
+emacs
+find
+git help bisect
+grep
+ssh
+
+cat alice.txt | wc -l 	get word count in file
+less alice.txt 	pagonate the file
+head
+tail
+
+history
+!558	run the command on that line
+!!	give you the previous command
+CTRL+r 	search your history as you type
+
+ifconfig -a 	get you ip address

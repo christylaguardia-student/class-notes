@@ -1,0 +1,17 @@
+install node
+npm i
+
+install paackage.json
+npm init
+
+install packages
+npm install express --save
+
+npm install body-parser --save
+
+npm install pg --save
+
+npm install page --save
+
+run
+node server.js OR npm start

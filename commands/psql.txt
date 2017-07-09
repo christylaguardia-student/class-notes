@@ -1,0 +1,22 @@
+for help
+\h
+
+connect to a database
+\c databasename
+
+list all databases
+\l
+
+list all tables
+\d
+
+list all columns in a table
+\d tablename
+
+quit session
+\q
+
+or do this to quit
+CTRL d
+
+\copy
