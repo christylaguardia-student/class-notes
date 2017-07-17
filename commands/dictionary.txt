@@ -1,0 +1,8 @@
+npm		Node Package Manager
+=>		arrow functions (“lambdas”)
+TDD		Test Driven Development
+BDD		Behaviour Driven Development
+CLI		command line interface
+API		application programming interface
+SUT 	system under test
+cjs		common java script ?

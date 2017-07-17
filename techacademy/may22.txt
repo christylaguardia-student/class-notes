@@ -1,0 +1,60 @@
+Mon May 22
+tech academy meet up
+michael allen
+
+Python
+
+classes: objects, potential for something, like blueprints
+example is car - from that ou have beetle, mini cooper, etc
+
+executable vs interpretive
+
+ide = integragted development environment
+
+data types
+there are no arrarys, there are these:
+	list
+	dictionaries
+	tuples
+	set
+
+integers are whole numbers
+
+boolean is true or false
+
+expression is a line of code that results in something
+
+
+object oriented
+is a 
+has a
+constant
+variable
+state
+stateless
+functions
+polymorphism
+
+
+python shell
+paren are req 
+
+ctrl + p previous line
+ctrl + n forward line
+
+lowercase
+
+IDLE
+shell is for testing
+write script then run
+
+comments #
+
+#this is a single line comment
+
+'''
+    this is a
+    multi-line
+    comment
+'''
+

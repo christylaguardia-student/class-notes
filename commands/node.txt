@@ -15,3 +15,6 @@ npm install page --save
 
 run
 node server.js OR npm start
+
+
+npm i eslint mocha -D
