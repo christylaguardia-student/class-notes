@@ -6,3 +6,6 @@ CLI		command line interface
 API		application programming interface
 SUT 	system under test
 cjs		common java script ?
+HTTP    Hypertext Transfer Protocol
+REST    Representational State Transfer
+CRUD    create, read, update, delete
