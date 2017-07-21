@@ -1,18 +1,17 @@
-Tue Jul 11
+# Tue Jul 11
 
-Lab feeback
-on own fork - ok to merge locally
-get to know array methods
+## Lab feeback
+* on own fork - ok to merge locally
+* get to know array methods
 
-_____
+---
 
-Function definition vs execution
+## Function definition vs execution
 
-functions are objects
-
-function definition = the variable
-arguments = the actual values in the parenthesis
-
+* functions are objects
+* function definition = the variable
+* arguments = the actual values in the parenthesis
+```js
 const callback = x => x*x;
 
 [1,2,3].map(callback); \\ pass this function as the mapping function
@@ -24,15 +23,17 @@ function outer(x) {
 }
 
 console.dir(fn)
+```
 
-function declaration = when name of the function, these are in scope
-function expression = when you use a function and set as something
-anonymous function expression = no name
+* function declaration = when name of the function, these are in scope
+* function expression = when you use a function and set as something
+* anonymous function expression = no name
 
-_____
+---
 
-Array lab
+## Array lab
 
+```js
 const assert = require('assert');
 const { mapm forEach } = require('../../array-methods');
 describe('array methods', () => {
@@ -97,17 +98,15 @@ function filter(array, callback) {
 }
 
 module.exports = { map, foreach };
+```
 
+* use lib folder
+* stick with a single module.export = ...
+* destructing ?
 
-use lib folder
+---
 
-stick with a single module.export = ...
-
-destructing ?
-
-_____
-
-Modules
+## Modules
 
 module.export =
 = require()
@@ -122,10 +121,11 @@ const cool = require('cool-ascii-faces');
 npm packages - check the date, stars & issues on github
 install globally stuff you use like utilities
 
-_____
+---
 
-Lab
+## Lab
 
+```
 const list = [];
 const dictionary = {};
 
@@ -146,15 +146,18 @@ module.exports = {
 	save(object) {},
 	remove(id) {}
 }
-__
-
+```
+---
+```
 const createStore = require('object-literal-factory'); // can't do this twice
 const carStore = createStore;
 const museumStore = createStore;
 
 const Store = require('class');
-__
+```
+---
 
+```
 // class version
 class Store {
 	constructor() {
@@ -177,3 +180,15 @@ class Store {
 }
 
 module.exports = Store;
+```
+
+## Lab review
+* where to start?
+* test the simplest thing
+* save
+  * how to generate ids
+    * shortid npm
+	* how to use shortid
+	  * npm install --save shortid
+
+* create a sandbox.js file for testing the shortid, add it to .gitignore
