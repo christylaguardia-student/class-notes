@@ -43,7 +43,7 @@
 * <https://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-1--net-31177>
 
 ## REST
-* <http://bl.ocks.org/abernier/3070589* <
+* <http://bl.ocks.org/abernier/3070589>
 
 ## ChaiJS
 * <http://chaijs.com/>
@@ -70,3 +70,23 @@
 * <http://exploringjs.com/es6/ch_async.html>
 * <http://exploringjs.com/es6/ch_promises.html>
 
+## Mongo
+* <http://openmymind.net/2011/3/28/The-Little-MongoDB-Book/>
+
+---
+
+# Week 3
+
+## ExpressJS
+* <http://expressjs.com/starter/hello-world.html>
+* <http://expressjs.com/starter/basic-routing.html>
+* <http://expressjs.com/guide/routing.html>
+
+## Mongoose ORM
+* <http://mongoosejs.com/docs/index.html>
+* <http://mongoosejs.com/docs/guide.html>
+* <http://mongoosejs.com/docs/schematypes.html>
+* <http://mongoosejs.com/docs/models.html>
+* <http://mongoosejs.com/docs/documents.html>
+* <http://mongoosejs.com/docs/queries.html>
+* <http://mongoosejs.com/docs/validation.html>
