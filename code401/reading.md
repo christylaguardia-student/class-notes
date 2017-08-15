@@ -35,8 +35,6 @@
 ## Big O and Arrays
 * <https://justin.abrah.ms/computer-science/big-o-notation-explained.html>
 
----
-
 # Week 2
 
 ## HTTP
@@ -73,8 +71,6 @@
 ## Mongo
 * <http://openmymind.net/2011/3/28/The-Little-MongoDB-Book/>
 
----
-
 # Week 3
 
 ## ExpressJS
@@ -90,3 +86,25 @@
 * <http://mongoosejs.com/docs/documents.html>
 * <http://mongoosejs.com/docs/queries.html>
 * <http://mongoosejs.com/docs/validation.html>
+
+# Week 4
+
+## JSON Web Token (JWT) and SSL
+* <https://scotch.io/tutorials/the-ins-and-outs-of-token-based-authentication>
+* <https://scotch.io/tutorials/the-anatomy-of-a-json-web-token>
+* <https://scotch.io/tutorials/authenticate-a-node-js-api-with-json-web-tokens>
+* <https://www.digicert.com/ssl.htm>
+
+# Week 6
+
+## ES6 Classes
+* <http://2ality.com/2015/02/es6-classes-final.html>
+* <https://medium.freecodecamp.com/learn-es6-the-dope-way-part-v-classes-browser-compatibility-transpiling-es6-code-47f62267661>
+
+* <https://medium.com/javascript-scene/javascript-factory-functions-vs-constructor-functions-vs-classes-2f22ceddf33e>
+* <https://appendto.com/2016/06/why-do-es6-classes-exist-and-why-now/>
+
+## React
+
+* <https://www.gitbook.com/download/pdf/book/frontendmasters/front-end-handbook-2017>
+* <https://github.com/facebookincubator/create-react-app>
