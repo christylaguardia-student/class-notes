@@ -108,3 +108,11 @@
 
 * <https://www.gitbook.com/download/pdf/book/frontendmasters/front-end-handbook-2017>
 * <https://github.com/facebookincubator/create-react-app>
+
+# Week 7
+
+## Testing and Snapshot Testing
+
+* <https://semaphoreci.com/community/tutorials/snapshot-testing-react-components-with-jest>
+* <https://facebook.github.io/jest/docs/tutorial-react.html>
+* <https://facebook.github.io/jest/docs/snapshot-testing.html#content>
