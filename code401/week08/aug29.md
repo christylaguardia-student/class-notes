@@ -41,3 +41,7 @@ this.setState((prevState, props) => {
   return { counter: prevState + val }
 });
 ```
+
+### Reducers
+* separate reducer for errors
+* middleware `thunk`
