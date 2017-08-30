@@ -1,2 +1,0 @@
-resubmit save logs
-https://github.com/cfpdx-401JS-summer-2017/hello-http/pulls
