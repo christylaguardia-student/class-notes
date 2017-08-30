@@ -41,3 +41,4 @@ To use *SCSS* in `create-react-app`:
   * prefix file name with `_`
   * `@import './styles/colors.scss'`
   * using es6 import, with webpack loading the css
+* you can also have calculations
