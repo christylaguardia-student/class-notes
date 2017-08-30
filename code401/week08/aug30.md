@@ -42,3 +42,15 @@ To use *SCSS* in `create-react-app`:
   * `@import './styles/colors.scss'`
   * using es6 import, with webpack loading the css
 * you can also have calculations
+
+## Next lab (due Tue 5th)
+
+_From now on create full-stack react/reduct apps from scratch_
+work backwards, user -> ui -> components...
+* what are the main areas of the app? (draw it)
+* what components will you need?
+  * create component, then write a enzyme snapshot tests (static)
+  * next parametarize the test (props)
+  * test actions
+  * test reducers, did state change?
+* use two repos
