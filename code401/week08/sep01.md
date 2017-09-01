@@ -16,13 +16,13 @@
   * target projects on what job you're applying for
   * don't overload with every piece of code
   * examples
-    * "Built a reponseive single page applicatiaon with Angular and Bootstrap"
-    * "Wrote a monder anutnticated backend using Epxpress and MongoDB"
+    * "Built a responsive single page application with Angular and Bootstrap"
+    * "Wrote a modern authenticated back end using Express and MongoDB"
 * work experience
   * include: title, organization, city & state, month & year
   * volunteer - direct outcome
   * not just paycheck jobs
-  * relevant responsibilites
+  * relevant responsibilities
   * don't need to include everything
   * don't just discuss what you were tasked with, describe what you accomplished
   * use ownership based language
@@ -34,11 +34,11 @@
   * don't need to put dates
   * shy away from using "Bootcamp" because 401 is more advanced
   * make sure you use "Certificate" and "Advanced"
-  * elimitate word student
+  * eliminate word student
 
 ```
 Alchemy Code Lab | Portland OR
-Certificate - Advanced Software Deelopment in Full-Stack Javascript | Sepetmber 2017
+Certificate - Advanced Software Development in Full-Stack Javascript | September 2017
 ```
 
 ## Online Presence
@@ -50,6 +50,8 @@ Certificate - Advanced Software Deelopment in Full-Stack Javascript | Sepetmber 
 * double-check privacy settings (visible on linkedin?)
 (think of yourself as a product)
 
-* stackoverflow has a job board
+* stack overflow has a job board
 
 update github about-me and descriptions for repos
+
+create a more text-based version of resume for uploading, and a nicer formated one for face-to-face
