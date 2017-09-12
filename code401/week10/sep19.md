@@ -32,4 +32,10 @@
 * nervous talking to people? ask the person with questions
 * could apply for a general job, like click "keep me in mind"
 
+sample info. interview questions:
+* do more listening then talking
+* what exciting projects you're working on?
+* what are your staff meeting like?
+* and at then end, make sure you have a next step "I'd love to apply and then after... schedule first official interview" or "maybe in two months i'll send you an email and we can scheulde a time to sit down and talk about it"
+
 great project idea! bringyourpetstoworkpdx! list companies that let you bring your dog to work.
